@@ -220,6 +220,7 @@ h5, p {
     backdrop-filter: blur(2px);
 }
 .bg {
+    border-left:  0;
     border: solid 1px #FFE7CC;
     background:  rgba(0, 0, 0, 0.3);  
     backdrop-filter: blur(2px);
