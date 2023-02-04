@@ -117,7 +117,7 @@ body{
 
 #johann{
     z-index: 1;
-    background-image: url('./images/burj.jpg');
+    background-image: url('images/burj.jpg');
     background-size: cover;
     
 }
