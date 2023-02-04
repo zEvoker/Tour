@@ -280,3 +280,35 @@ img{
     color: orange;
     background-color: black
 }
+
+@media (max-width: 600px) {
+    .refresh {
+        width: 14%;
+        border-radius: 50%;
+        right: 0;
+    }
+    
+    .refresh > div {
+        display: flex;
+    }
+    
+    .refresh > div > a > i {
+        padding-left : 8%;
+    }
+}
+
+@media (min-width: 601px) {
+    .refresh {
+        width: 4%;
+        border-radius: 50%;
+        right: 0;
+    }
+    
+    .refresh > div {
+        display: flex;
+    }
+    
+    .refresh > div > a > i {
+        padding-left : 8px;
+    }
+}
