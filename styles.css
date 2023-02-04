@@ -6,9 +6,6 @@
 body{
     width:100%;
 }
-html,body{
-    overflow: hidden;
-}
 
 #title > h1{
     font-family: "Montserrat";
