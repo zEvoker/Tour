@@ -215,18 +215,18 @@ function johann() {
     document.querySelector("#rating2").innerHTML = rating.concat(hotels[random_nums[1]][3]);
     document.querySelector("#rating3").innerHTML = rating.concat(hotels[random_nums[2]][3]);
 
-    document.querySelector("#reviews1").src = hotels[random_nums[0]][4];
-    document.querySelector("#reviews2").src = hotels[random_nums[1]][4];
-    document.querySelector("#reviews3").src = hotels[random_nums[2]][4];
+    document.querySelector("#reviews1").href = hotels[random_nums[0]][4];
+    document.querySelector("#reviews2").href = hotels[random_nums[1]][4];
+    document.querySelector("#reviews3").href = hotels[random_nums[2]][4];
 
     
-    document.querySelector("#location1").src = hotels[random_nums[0]][6];
-    document.querySelector("#location2").src = hotels[random_nums[1]][6];
-    document.querySelector("#location3").src = hotels[random_nums[2]][6];
+    document.querySelector("#location1").href = hotels[random_nums[0]][6];
+    document.querySelector("#location2").href = hotels[random_nums[1]][6];
+    document.querySelector("#location3").href = hotels[random_nums[2]][6];
 
-    document.querySelector("#booking1").src = hotels[random_nums[0]][5];
-    document.querySelector("#booking2").src = hotels[random_nums[1]][5];
-    document.querySelector("#booking3").src = hotels[random_nums[2]][5];
+    document.querySelector("#booking1").href = hotels[random_nums[0]][5];
+    document.querySelector("#booking2").href = hotels[random_nums[1]][5];
+    document.querySelector("#booking3").href = hotels[random_nums[2]][5];
 }
 
 johann();
